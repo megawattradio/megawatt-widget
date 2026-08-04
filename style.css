@@ -1,14 +1,29 @@
 body {
+
     margin: 0;
+
     background: transparent;
+
     font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
     overflow: hidden;
+
 }
+
 
 
 #mw-widget {
 
     width: 100%;
+
     max-width: 430px;
 
     box-sizing: border-box;
@@ -17,13 +32,14 @@ body {
 
     border-radius: 18px;
 
-    padding: 20px 22px 24px;
+    padding: 18px 22px;
 
     color: white;
 
     overflow: hidden;
 
 }
+
 
 
 /* Headings */
@@ -44,7 +60,7 @@ body {
 
 
 
-/* Live / Playlist */
+/* Live / playlist */
 
 .status-row {
 
@@ -54,7 +70,7 @@ body {
 
     gap: 8px;
 
-    margin-top: 12px;
+    margin-top: 10px;
 
     font-size: 14px;
 
@@ -63,6 +79,7 @@ body {
     color: #ffffff;
 
 }
+
 
 
 .live-dot {
@@ -75,14 +92,17 @@ body {
 
     border-radius: 50%;
 
+    flex-shrink: 0;
+
 }
 
 
-/* Show name + time */
+
+/* Show / playlist name */
 
 .show {
 
-    margin-top: 6px;
+    margin-top: 5px;
 
     font-size: 15px;
 
@@ -90,7 +110,7 @@ body {
 
     color: #FAC705;
 
-    line-height: 1.4;
+    line-height: 1.35;
 
 }
 
@@ -104,19 +124,19 @@ body {
 
     background: #2a2a2a;
 
-    margin: 18px 0;
+    margin: 16px 0;
 
 }
 
 
 
-/* Track title */
+/* Song title */
 
 .song {
 
-    margin-top: 10px;
+    margin-top: 8px;
 
-    font-size: 22px;
+    font-size: 21px;
 
     font-weight: 700;
 
