@@ -1,17 +1,12 @@
 html,
 body {
-
     margin:0;
     padding:0;
-
     width:100%;
-
-    background:transparent;
-
-    font-family:'Montserrat', sans-serif;
-
+    height:180px;
     overflow:hidden;
-
+    background:transparent;
+    font-family:'Montserrat', sans-serif;
 }
 
 
@@ -23,7 +18,6 @@ body {
 #mw-widget {
 
     width:100%;
-
     max-width:430px;
 
     height:180px;
@@ -36,50 +30,38 @@ body {
 
     padding:14px 18px;
 
-    color:white;
-
     overflow:hidden;
 
 }
 
 
-
 .heading {
 
     font-size:11px;
-
     font-weight:700;
-
     letter-spacing:1px;
-
     color:#ffffff;
 
 }
 
 
-
 .status-row {
 
     display:flex;
-
     align-items:center;
-
     gap:8px;
 
     margin-top:7px;
 
     font-size:13px;
-
     font-weight:700;
 
 }
 
 
-
 .live-dot {
 
     width:7px;
-
     height:7px;
 
     background:#FAC705;
@@ -89,12 +71,9 @@ body {
 }
 
 
-
 .show {
 
     margin-top:4px;
-
-    height:18px;
 
     font-size:13px;
 
@@ -106,10 +85,7 @@ body {
 
     overflow:hidden;
 
-    text-overflow:ellipsis;
-
 }
-
 
 
 .now-playing-heading {
@@ -122,17 +98,16 @@ body {
 
     letter-spacing:1px;
 
-}
+    color:#ffffff;
 
+}
 
 
 .song {
 
-    margin-top:7px;
+    margin-top:6px;
 
-    height:24px;
-
-    font-size:19px;
+    font-size:18px;
 
     font-weight:700;
 
@@ -142,24 +117,15 @@ body {
 
     overflow:hidden;
 
-    text-overflow:ellipsis;
-
 }
-
 
 
 .artist {
 
     margin-top:4px;
 
-    font-size:13px;
+    font-size:12px;
 
     color:#aaaaaa;
-
-    white-space:nowrap;
-
-    overflow:hidden;
-
-    text-overflow:ellipsis;
 
 }
