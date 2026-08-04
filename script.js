@@ -10,27 +10,32 @@ async function u() {
         const d = await r.json();
 
 
-        song.textContent = d.now_playing.song.title || '';
+        document.getElementById('song').textContent =
+            d.now_playing.song.title || '';
 
-        artist.textContent = d.now_playing.song.artist || '';
+        document.getElementById('artist').textContent =
+            d.now_playing.song.artist || '';
 
 
 
         if (d.live && d.live.is_live) {
 
-            status.textContent = 'LIVE';
+            document.getElementById('status').textContent = 'LIVE';
 
-            show.textContent = d.live.stream_title || 'Live Show';
+            document.getElementById('show').textContent =
+                d.live.stream_title || 'Live Show';
 
         } 
         
         else {
 
-            status.textContent = 'PLAYLIST';
+            document.getElementById('status').textContent = 'PLAYLIST';
 
-            show.textContent =
-                (d.now_playing.playlist && d.now_playing.playlist !== 'MegaWatt Radio')
-                ? d.now_playing.playlist
+            const playlist = d.now_playing.playlist;
+
+            document.getElementById('show').textContent =
+                (playlist && playlist !== 'MegaWatt Radio')
+                ? playlist
                 : '';
 
         }
