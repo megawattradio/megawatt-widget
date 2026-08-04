@@ -1,7 +1,6 @@
 body {
 
     margin: 0;
-
     padding: 0;
 
     background: transparent;
@@ -11,6 +10,7 @@ body {
     overflow: hidden;
 
 }
+
 
 
 #mw-widget {
@@ -35,7 +35,7 @@ body {
 
 
 
-/* headings */
+/* Headings */
 
 .heading {
 
@@ -47,105 +47,188 @@ body {
 
     color: #ffffff;
 
+    text-transform: uppercase;
+
 }
 
 
 
-/* live row */
+/* LIVE / PLAYLIST */
 
 .status-row {
 
-    display:flex;
+    display: flex;
 
-    align-items:center;
+    align-items: center;
 
-    gap:7px;
+    gap: 7px;
 
-    margin-top:8px;
+    margin-top: 8px;
 
-    font-size:13px;
+    font-size: 13px;
 
-    font-weight:700;
+    font-weight: 700;
 
-    color:#ffffff;
+    color: #ffffff;
 
 }
+
 
 
 .live-dot {
 
-    width:7px;
+    width: 7px;
 
-    height:7px;
+    height: 7px;
 
-    background:#FAC705;
+    background: #FAC705;
 
-    border-radius:50%;
+    border-radius: 50%;
+
+    flex-shrink: 0;
 
 }
 
 
 
-/* show */
+/* Show / Playlist */
 
 .show {
 
-    margin-top:4px;
+    margin-top: 4px;
 
-    font-size:14px;
+    font-size: 14px;
 
-    font-weight:600;
+    font-weight: 600;
 
-    color:#FAC705;
+    color: #FAC705;
 
-    line-height:1.25;
+    line-height: 1.25;
 
 }
 
 
 
-/* divider */
+/* Divider */
 
 .divider {
 
-    height:1px;
+    height: 1px;
 
-    background:#2a2a2a;
+    background: #2a2a2a;
 
-    margin:12px 0;
+    margin: 12px 0;
 
 }
 
 
 
-/* song */
+/* Song */
 
 .song {
 
-    margin-top:7px;
+    margin-top: 7px;
 
-    font-size:19px;
+    font-size: 19px;
 
-    font-weight:700;
+    font-weight: 700;
 
-    line-height:1.2;
+    line-height: 1.2;
 
-    color:#FAC705;
+    color: #FAC705;
 
 }
 
 
 
-/* artist */
+/* Artist */
 
 .artist {
 
-    margin-top:4px;
+    margin-top: 4px;
 
-    font-size:13px;
+    font-size: 13px;
 
-    font-weight:500;
+    font-weight: 500;
 
-    color:#aaaaaa;
+    color: #aaaaaa;
+
+}
+
+
+
+/* MOBILE OPTIMISATION */
+
+@media (max-width: 600px) {
+
+
+    #mw-widget {
+
+        padding: 13px 16px;
+
+        border-radius: 16px;
+
+    }
+
+
+    .heading {
+
+        font-size: 10px;
+
+    }
+
+
+    .status-row {
+
+        margin-top: 6px;
+
+        font-size: 12px;
+
+    }
+
+
+    .live-dot {
+
+        width: 6px;
+
+        height: 6px;
+
+    }
+
+
+    .show {
+
+        margin-top: 3px;
+
+        font-size: 12px;
+
+        line-height: 1.2;
+
+    }
+
+
+    .divider {
+
+        margin: 9px 0;
+
+    }
+
+
+    .song {
+
+        margin-top: 5px;
+
+        font-size: 16px;
+
+    }
+
+
+    .artist {
+
+        margin-top: 3px;
+
+        font-size: 12px;
+
+    }
 
 }
