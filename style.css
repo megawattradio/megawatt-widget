@@ -1,17 +1,24 @@
 body {
-
     margin: 0;
-
     padding: 0;
-
     background: transparent;
-
     font-family: 'Montserrat', sans-serif;
-
     overflow: hidden;
-
+    height: 100%;
 }
 
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
 
 
 #mw-widget {
@@ -22,21 +29,21 @@ body {
 
     margin: 0 auto;
 
-    box-sizing: border-box;
-
     background: #111111;
 
     border-radius: 18px;
 
-    padding: 14px 18px;
+    padding: 12px 18px;
 
     color: #ffffff;
+
+    overflow: hidden;
 
 }
 
 
 
-/* Headings */
+/* Heading */
 
 .heading {
 
@@ -64,7 +71,7 @@ body {
 
     gap: 7px;
 
-    margin-top: 7px;
+    margin-top: 6px;
 
     font-size: 13px;
 
@@ -92,7 +99,7 @@ body {
 
 
 
-/* Show / playlist */
+/* Show */
 
 .show {
 
@@ -104,13 +111,13 @@ body {
 
     color: #FAC705;
 
-    line-height: 1.25;
+    line-height: 1.2;
 
 }
 
 
 
-/* Remove divider to save space */
+/* Divider removed */
 
 .divider {
 
@@ -124,7 +131,7 @@ body {
 
 .song {
 
-    margin-top: 12px;
+    margin-top: 10px;
 
     font-size: 18px;
 
