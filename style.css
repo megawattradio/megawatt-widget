@@ -5,13 +5,12 @@ body {
     padding:0;
 
     width:100%;
-    height:175px;
-
-    overflow:hidden;
 
     background:transparent;
 
-    font-family:'Montserrat',sans-serif;
+    font-family:'Montserrat', sans-serif;
+
+    overflow:hidden;
 
 }
 
@@ -24,9 +23,10 @@ body {
 #mw-widget {
 
     width:100%;
+
     max-width:430px;
 
-    height:175px;
+    height:180px;
 
     margin:0 auto;
 
@@ -36,11 +36,12 @@ body {
 
     padding:14px 18px;
 
-    overflow:hidden;
-
     color:white;
 
+    overflow:hidden;
+
 }
+
 
 
 .heading {
@@ -51,9 +52,7 @@ body {
 
     letter-spacing:1px;
 
-    color:white;
-
-    line-height:14px;
+    color:#ffffff;
 
 }
 
@@ -65,9 +64,7 @@ body {
 
     align-items:center;
 
-    gap:7px;
-
-    height:16px;
+    gap:8px;
 
     margin-top:7px;
 
@@ -95,11 +92,9 @@ body {
 
 .show {
 
-    margin-top:3px;
+    margin-top:4px;
 
     height:18px;
-
-    line-height:18px;
 
     font-size:13px;
 
@@ -117,9 +112,15 @@ body {
 
 
 
-.now-heading {
+.now-playing-heading {
 
     margin-top:12px;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
 
 }
 
@@ -127,13 +128,11 @@ body {
 
 .song {
 
-    margin-top:6px;
+    margin-top:7px;
 
-    height:22px;
+    height:24px;
 
-    line-height:22px;
-
-    font-size:18px;
+    font-size:19px;
 
     font-weight:700;
 
@@ -151,13 +150,9 @@ body {
 
 .artist {
 
-    margin-top:3px;
+    margin-top:4px;
 
-    height:16px;
-
-    line-height:16px;
-
-    font-size:12px;
+    font-size:13px;
 
     color:#aaaaaa;
 
