@@ -7,19 +7,16 @@ body {
 
 
 #mw-widget {
-
     width: 100%;
     max-width: 430px;
-
-    height: 210px;
+    height: 240px;
 
     box-sizing: border-box;
 
     background: #111111;
-
     border-radius: 18px;
 
-    padding: 22px;
+    padding: 24px;
 
     color: #ffffff;
 
@@ -27,59 +24,48 @@ body {
 }
 
 
-
-.header {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 8px;
-
+.heading {
     font-size: 12px;
-
     font-weight: 700;
-
     letter-spacing: 1px;
-
+    color: #888888;
+    text-transform: uppercase;
 }
 
 
+.status-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 12px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
 
 .live-dot {
-
     width: 8px;
-
     height: 8px;
 
     background: #34d058;
 
     border-radius: 50%;
-
-    flex-shrink: 0;
-
 }
-
 
 
 .show {
 
-    margin-top: 8px;
+    margin-top: 6px;
 
-    font-size: 14px;
+    font-size: 15px;
 
     color: #aaaaaa;
 
     font-weight: 500;
 
-    white-space: nowrap;
-
-    overflow: hidden;
-
-    text-overflow: ellipsis;
-
 }
-
 
 
 .divider {
@@ -88,35 +74,20 @@ body {
 
     background: #222222;
 
-    margin: 18px 0;
+    margin: 22px 0;
 
 }
-
-
-
-.heading {
-
-    font-size: 11px;
-
-    letter-spacing: 1px;
-
-    color: #888888;
-
-    font-weight: 600;
-
-}
-
 
 
 .song {
 
-    margin-top: 8px;
+    margin-top: 10px;
 
-    font-size: 19px;
+    font-size: 22px;
 
     font-weight: 700;
 
-    line-height: 1.3;
+    line-height: 1.25;
 
     white-space: nowrap;
 
@@ -127,21 +98,14 @@ body {
 }
 
 
-
 .artist {
 
-    margin-top: 5px;
+    margin-top: 6px;
 
     font-size: 14px;
 
     color: #aaaaaa;
 
     font-weight: 500;
-
-    white-space: nowrap;
-
-    overflow: hidden;
-
-    text-overflow: ellipsis;
 
 }
