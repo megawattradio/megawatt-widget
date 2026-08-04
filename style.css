@@ -1,18 +1,10 @@
+html,
 body {
     margin: 0;
     padding: 0;
     background: transparent;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
-    height: 100%;
-}
-
-
-html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 100%;
 }
 
 
@@ -27,13 +19,15 @@ html {
 
     max-width: 430px;
 
+    height: 175px;
+
     margin: 0 auto;
 
     background: #111111;
 
     border-radius: 18px;
 
-    padding: 12px 18px;
+    padding: 14px 18px;
 
     color: #ffffff;
 
@@ -43,7 +37,7 @@ html {
 
 
 
-/* Heading */
+/* headings */
 
 .heading {
 
@@ -55,13 +49,13 @@ html {
 
     color: #ffffff;
 
-    text-transform: uppercase;
+    line-height: 1;
 
 }
 
 
 
-/* Live / Playlist */
+/* live row */
 
 .status-row {
 
@@ -71,7 +65,9 @@ html {
 
     gap: 7px;
 
-    margin-top: 6px;
+    margin-top: 7px;
+
+    height: 16px;
 
     font-size: 13px;
 
@@ -80,7 +76,6 @@ html {
     color: #ffffff;
 
 }
-
 
 
 .live-dot {
@@ -93,17 +88,17 @@ html {
 
     border-radius: 50%;
 
-    flex-shrink: 0;
-
 }
 
 
 
-/* Show */
+/* show */
 
 .show {
 
     margin-top: 3px;
+
+    height: 18px;
 
     font-size: 13px;
 
@@ -111,50 +106,74 @@ html {
 
     color: #FAC705;
 
-    line-height: 1.2;
+    line-height: 18px;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
 
 }
 
 
 
-/* Divider removed */
+/* now playing */
 
-.divider {
+.now-heading {
 
-    display: none;
+    margin-top: 12px;
 
 }
 
 
 
-/* Song */
+/* song */
 
 .song {
 
-    margin-top: 10px;
+    margin-top: 6px;
+
+    height: 22px;
 
     font-size: 18px;
 
     font-weight: 700;
 
-    line-height: 1.2;
+    line-height: 22px;
 
     color: #FAC705;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
 
 }
 
 
 
-/* Artist */
+/* artist */
 
 .artist {
 
     margin-top: 3px;
 
+    height: 16px;
+
     font-size: 12px;
 
     font-weight: 500;
 
+    line-height: 16px;
+
     color: #aaaaaa;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
 
 }
