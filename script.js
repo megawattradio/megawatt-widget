@@ -22,11 +22,13 @@ async function u() {
 
             show.textContent = d.live.stream_title || 'Live Show';
 
-        } else {
+        } 
+        
+        else {
 
             status.textContent = 'PLAYLIST';
 
-            show.textContent = 
+            show.textContent =
                 (d.now_playing.playlist && d.now_playing.playlist !== 'MegaWatt Radio')
                 ? d.now_playing.playlist
                 : '';
