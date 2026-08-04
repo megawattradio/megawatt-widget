@@ -13,6 +13,7 @@ async function u() {
         document.getElementById('song').textContent =
             d.now_playing.song.title || '';
 
+
         document.getElementById('artist').textContent =
             d.now_playing.song.artist || '';
 
@@ -31,7 +32,9 @@ async function u() {
 
             document.getElementById('status').textContent = 'PLAYLIST';
 
+
             const playlist = d.now_playing.playlist;
+
 
             document.getElementById('show').textContent =
                 (playlist && playlist !== 'MegaWatt Radio')
