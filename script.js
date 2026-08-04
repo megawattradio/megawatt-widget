@@ -10,7 +10,7 @@ async function u() {
         const d = await r.json();
 
 
-        song.textContent = d.now_playing.song.title || 'Unknown Track';
+        song.textContent = d.now_playing.song.title || '';
 
         artist.textContent = d.now_playing.song.artist || '';
 
@@ -22,20 +22,19 @@ async function u() {
 
             show.textContent = d.live.stream_title || 'Live Show';
 
-        } 
-
-        else {
+        } else {
 
             status.textContent = 'PLAYLIST';
 
-            show.textContent = d.now_playing.playlist || '';
+            show.textContent = 
+                (d.now_playing.playlist && d.now_playing.playlist !== 'MegaWatt Radio')
+                ? d.now_playing.playlist
+                : '';
 
         }
 
 
-    } 
-
-    catch (e) {
+    } catch (e) {
 
         console.log(e);
 
