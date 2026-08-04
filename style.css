@@ -24,7 +24,7 @@ body {
 
     border-radius:18px;
 
-    padding:14px 18px;
+    padding:12px 18px;
 
     color:#ffffff;
 
@@ -54,9 +54,9 @@ body {
 
     gap:7px;
 
-    margin-top:7px;
+    margin-top:6px;
 
-    font-size:13px;
+    font-size:12px;
 
     font-weight:700;
 
@@ -82,13 +82,13 @@ body {
 
     margin-top:3px;
 
-    font-size:13px;
+    font-size:12px;
 
     font-weight:600;
 
     color:#FAC705;
 
-    line-height:16px;
+    line-height:15px;
 
 }
 
@@ -96,7 +96,7 @@ body {
 
 .now-playing-heading {
 
-    margin-top:10px;
+    margin-top:9px;
 
     font-size:11px;
 
@@ -126,7 +126,7 @@ body {
 
 .artist {
 
-    margin-top:3px;
+    margin-top:2px;
 
     font-size:12px;
 
