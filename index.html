@@ -1,15 +1,47 @@
 <!doctype html>
-<html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MegaWatt Radio Widget</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-</head><body>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MegaWatt Radio Widget</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
 <div id="mw-widget">
-<div class="card"><div class="heading">ON AIR</div><div id="status" class="status">PLAYLIST</div><div id="show" class="show">Loading…</div></div>
-<div class="card"><div class="heading">NOW PLAYING</div><div id="song" class="song">Loading…</div><div id="artist" class="artist">Loading…</div></div>
+
+    <div class="header">
+        <span class="live-dot"></span>
+        <span>ON AIR</span>
+    </div>
+
+    <div id="show" class="show">
+        Loading…
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="heading">
+        NOW PLAYING
+    </div>
+
+    <div id="song" class="song">
+        Loading…
+    </div>
+
+    <div id="artist" class="artist">
+        Loading…
+    </div>
+
 </div>
+
 <script src="script.js"></script>
-</body></html>
+
+</body>
+</html>
